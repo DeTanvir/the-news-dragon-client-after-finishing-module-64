@@ -5,11 +5,13 @@ import Header from '../pages/Shared/Header/Header';
 import Footer from '../pages/Shared/Footer/Footer';
 import LeftNav from '../pages/Shared/LeftNav/LeftNav';
 import RightNav from '../pages/Shared/RightNav/RightNav';
+import NavigationBar from '../pages/Shared/NavigationBar/NavigationBar';
 
 const Main = () => {
     return (
         <Container>
             <Header></Header>
+            <NavigationBar></NavigationBar>
             <Container>
                 <Row>
                     <Col lg={3}>
